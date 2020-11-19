@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd"
+        class="com.company.demo.web.screens.ExtUserBrowser"
+        extends="com/haulmont/cuba/gui/app/security/user/browse/user-browse.xml"
+        messagesPack="com.company.demo.web.screens">
+    <layout spacing="false">
+        <groupTable id="usersTable">
+            <columns>
+                <column id="address"
+                        caption="msg://address.caption"
+                        ext:index="1"/>
+            </columns>
+        </groupTable>
+    </layout>
+</window>
